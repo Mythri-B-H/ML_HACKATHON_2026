@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Data / large artifacts (regenerable)
+data/raw/
+data/processed/
+data/samples/
+data/reports/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Model / experiment outputs
+outputs/
+checkpoints/
+runs/
+mlruns/
+wandb/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
