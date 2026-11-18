@@ -1,0 +1,107 @@
+{
+  "logistic_regression": {
+    "name": "Logistic Regression",
+    "accuracy": 0.7614,
+    "precision": 0.637,
+    "recall": 0.7669,
+    "f1_score": 0.696,
+    "roc_auc": 0.8274,
+    "confusion_matrix": [
+      [
+        18021,
+        5742
+      ],
+      [
+        3062,
+        10076
+      ]
+    ],
+    "train_time_sec": 0.25,
+    "inference_time_ms": 11.9,
+    "model_path": "c:\\Users\\bhmyt\\PathSnap\\models\\saved\\logistic_regression.joblib"
+  },
+  "random_forest": {
+    "name": "Random Forest",
+    "accuracy": 0.7786,
+    "precision": 0.6747,
+    "recall": 0.7305,
+    "f1_score": 0.7015,
+    "roc_auc": 0.8348,
+    "confusion_matrix": [
+      [
+        19135,
+        4628
+      ],
+      [
+        3541,
+        9597
+      ]
+    ],
+    "train_time_sec": 7.17,
+    "inference_time_ms": 80.51,
+    "model_path": "c:\\Users\\bhmyt\\PathSnap\\models\\saved\\random_forest.joblib"
+  },
+  "gradient_boosting": {
+    "name": "HistGradientBoosting",
+    "accuracy": 0.7769,
+    "precision": 0.6661,
+    "recall": 0.7487,
+    "f1_score": 0.705,
+    "roc_auc": 0.8388,
+    "confusion_matrix": [
+      [
+        18831,
+        4932
+      ],
+      [
+        3301,
+        9837
+      ]
+    ],
+    "train_time_sec": 3.19,
+    "inference_time_ms": 115.3,
+    "model_path": "c:\\Users\\bhmyt\\PathSnap\\models\\saved\\gradient_boosting.joblib"
+  },
+  "mlp": {
+    "name": "Multi-Layer Perceptron",
+    "accuracy": 0.8108,
+    "precision": 0.7787,
+    "recall": 0.6547,
+    "f1_score": 0.7114,
+    "roc_auc": 0.85,
+    "confusion_matrix": [
+      [
+        21318,
+        2445
+      ],
+      [
+        4536,
+        8602
+      ]
+    ],
+    "train_time_sec": 17.18,
+    "inference_time_ms": 26.03,
+    "model_path": "c:\\Users\\bhmyt\\PathSnap\\models\\saved\\mlp.joblib"
+  },
+  "svm": {
+    "name": "Support Vector Machine",
+    "accuracy": 0.786,
+    "precision": 0.7111,
+    "recall": 0.672,
+    "f1_score": 0.691,
+    "roc_auc": 0.8259,
+    "confusion_matrix": [
+      [
+        20176,
+        3587
+      ],
+      [
+        4309,
+        8829
+      ]
+    ],
+    "train_time_sec": 1.25,
+    "inference_time_ms": 30.41,
+    "model_path": "c:\\Users\\bhmyt\\PathSnap\\models\\saved\\svm.joblib"
+  }
+}
